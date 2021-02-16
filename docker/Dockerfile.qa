@@ -34,7 +34,7 @@ LABEL project="shield-store"
 
 # Dependencies
 RUN yum update -y && \
-    yum install -y https://centos7.iuscommunity.org/ius-release.rpm \
+    yum install -y https://repo.ius.io/ius-release-el7.rpm \
     yum makecache fast && \
     yum install -y python36u python36u-pip && \
     pip3.6 install --upgrade pip && \

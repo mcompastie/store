@@ -34,4 +34,4 @@ LABEL project="shield-store"
 
 WORKDIR /usr/share/dev/store/docker
 
-CMD ["mongod", "--port", "27917"]
+CMD ["mongod", "--port", "27217"]
